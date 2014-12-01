@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2014, 7:22:26 PM
+    Author     : SHERRY
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+@font-face{
+    font-family: 'disney';
+    src:url('Anjelika Rose.ttf')
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    line-height:32px;
+    font-family: "Luckiest Guy", "Arial";   
+}
+

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="levelOneBg" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/levelOneBg.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="145" name="boss_3" tilewidth="150" tileheight="146">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/boss_3.png" width="150" height="146"/>
+ </tileset>
+ <tileset firstgid="146" name="npc_1" tilewidth="80" tileheight="105">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/npc_1.png" width="80" height="105"/>
+ </tileset>
+ <tileset firstgid="147" name="npc_2" tilewidth="80" tileheight="98">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/npc_2.png" width="80" height="98"/>
+ </tileset>
+ <tileset firstgid="148" name="boss_2" tilewidth="86" tileheight="150">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/boss_2.png" width="86" height="150"/>
+ </tileset>
+ <tileset firstgid="149" name="boss_1" tilewidth="80" tileheight="95">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/boss_1.png" width="80" height="95"/>
+ </tileset>
+ <tileset firstgid="150" name="bloodBag2" tilewidth="64" tileheight="64">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/bloodBag2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="151" name="bloodBag1" tilewidth="64" tileheight="64">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/bloodBag1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="152" name="alading" tilewidth="80" tileheight="60">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/alading.png" width="80" height="62"/>
+ </tileset>
+ <tileset firstgid="153" name="shield1" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/shield1.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="154" name="shield2" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/shield2.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="155" name="shield3" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/shield3.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="156" name="sword1" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/sword1.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="157" name="sword2" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/sword2.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="158" name="sword3" tilewidth="80" tileheight="80">
+  <image source="../../../../../D4_v1.0.1/D4_v1.0.0/D4/assets/pics/sword3.png" width="80" height="80"/>
+ </tileset>
+ <tileset firstgid="159" name="conversation" tilewidth="480" tileheight="10">
+  <image source="../../../../../../../../Users/XN/Downloads/D4_v1.0.5/D4_v1.0.0/D4/assets/pics/conversation.png" width="480" height="10"/>
+ </tileset>
+ <tileset firstgid="160" name="levelOneBg" tilewidth="80" tileheight="80">
+  <image source="../../../../../../../../Users/XN/Downloads/D4_v1.0.5/D4_v1.0.0/D4/assets/pics/levelOneBg.png" width="960" height="960"/>
+ </tileset>
+ <layer name="floor" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6AKnX8dF3JIWDVVVVXfPUXbQ4A=
+  </data>
+ </layer>
+ <layer name="wall" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNVstqxDAMVN+l0Pe2/9J7b/mNJQulh0Cg7KGwx1CW/nNlKtFZVXLihCw7MNiOHxPZkuxTIroUnkP9DcoLaL9LeQVjcf6ZWQd5xDxmnjDvmAvhA/NJ6h9SrpmPUi6gfIZ5OP9eStuXeM28Yd7Sf7w43/YB1d04fUtmxfwCansrrKCu7ZWz1iuzlv4+3c9SIwRtwdg5dHEvFGkPO/q1vZMxHbAC3SXFe7qVNbSNuh6aAf+tukPGIubQTbarj9VQR19qadcPx6IJ6og2qOeg8YL/78XPFF3rOwlj/bZE10Oki2eJ9utZVqY/l0sI5qjdkW70vSQv5DBFN4pjmyvR//vOd4q9Xv4buv5QXW/cIelGd5vuv57N3PZGc8boptjL+Zf2o806Junau4roL/Zs/KKuzWfWbs8WtaNvj3L2NubboehiHtN924cuQvtQ174/7P1aqovxszJ9OXtRC+NQ/U590Op6936k06ebg9X1sIHSu+PtXpfo2lyU058T37T73rDvj9y7tu/dW2fW/gGYCI4F
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer">
+  <object gid="145" x="1085.55" y="1166.52">
+   <properties>
+    <property name="sprite" value="boss_3"/>
+    <property name="type" value="boss"/>
+   </properties>
+  </object>
+  <object gid="146" x="1236.79" y="2054.48">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="1979.27" y="2210.09">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="801.455" y="2215">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="2320.61" y="1767.15">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="263.667" y="2294.06">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="240.818" y="378.242">
+   <properties>
+    <property name="prite" value="npc_1"/>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="1441.79" y="1024.97">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="2320.61" y="701.788">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="1200.39" y="865.303">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="320.606" y="943.212">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="659.818" y="2070.12">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="499.394" y="1921.73">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="937.758" y="695.364">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="148" x="1118.58" y="1611.73">
+   <properties>
+    <property name="sprite" value="boss_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="799.394" y="937.333">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="146" x="1441.82" y="1656.42">
+   <properties>
+    <property name="sprite" value="npc_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="147" x="1599.39" y="1261.48">
+   <properties>
+    <property name="sprite" value="npc_2"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="149" x="1937.7" y="536.273">
+   <properties>
+    <property name="sprite" value="boss_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="149" x="799.394" y="224.061">
+   <properties>
+    <property name="sprite" value="boss_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="149" x="320.606" y="1263.45">
+   <properties>
+    <property name="sprite" value="boss_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="149" x="2080.24" y="462.455">
+   <properties>
+    <property name="sprite" value="boss_1"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object gid="150" x="961" y="1450.97">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="1296.12" y="1450.94">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="1455.79" y="1993.61">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="1601.39" y="1994.64">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="15.4242" y="250.97">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="2098.21" y="962.212">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="2324.11" y="963.212">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="2176" y="1696.42">
+   <properties>
+    <property name="prite" value=""/>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="241.818" y="1770.18">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="241.788" y="1846.97">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="961" y="1596.64">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="1296.18" y="1597.64">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="151" x="1856.79" y="960.182">
+   <properties>
+    <property name="sprite" value="bloodBag1"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="151" x="1296.21" y="1291.42">
+   <properties>
+    <property name="sprite" value="bloodBag1"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="151" x="961" y="1288.39">
+   <properties>
+    <property name="sprite" value="bloodBag1"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="151" x="1841.82" y="1996.61">
+   <properties>
+    <property name="sprite" value="bloodBag1"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="151" x="240.788" y="250.03">
+   <properties>
+    <property name="sprite" value="bloodBag1"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="1600.33" y="232.696">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="151" x="1688.63" y="232.696">
+   <properties>
+    <property name="sprite" value="bloodBag1"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="479.105" y="1193.36">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="725.292" y="1348.56">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="150" x="1934.82" y="952.524">
+   <properties>
+    <property name="sprite" value="bloodBag2"/>
+    <property name="type" value="bloodBag"/>
+   </properties>
+  </object>
+  <object gid="159" x="919.625" y="1193.29">
+   <properties>
+    <property name="sprite" value="conversation"/>
+    <property name="type" value="conversation"/>
+   </properties>
+  </object>
+  <object gid="173" x="2241.12" y="157.791">
+   <properties>
+    <property name="sprite" value="door"/>
+    <property name="type" value="door"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Alading">
+  <object gid="152" x="1" y="868"/>
+  <object gid="152" x="1278" y="230"/>
+  <object gid="152" x="2080" y="631"/>
+  <object gid="152" x="480" y="1350"/>
+  <object gid="152" x="1600" y="1915"/>
+  <object gid="152" x="1759" y="2149"/>
+  <object gid="152" x="1122" y="1433"/>
+ </objectgroup>
+ <objectgroup name="SwordnShield">
+  <object gid="153" x="318.576" y="1760.63"/>
+  <object gid="154" x="1918.79" y="802.644"/>
+  <object gid="155" x="1993.72" y="1439.52"/>
+  <object gid="156" x="2167.65" y="874.894"/>
+  <object gid="157" x="628.986" y="1126.43"/>
+  <object gid="158" x="990.238" y="2111.18"/>
+ </objectgroup>
+</map>
